@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.backImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.welcome{
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    font-family: Arial;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+}
