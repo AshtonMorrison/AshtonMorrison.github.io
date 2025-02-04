@@ -1,9 +1,6 @@
 // LandingPage for website
 // Contains image and welcome message
 
-import React from 'react';
-import '../styles.css';
-
 export default function LandingPage() {
 
   return (
