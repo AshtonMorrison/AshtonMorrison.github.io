@@ -5,13 +5,15 @@ export default function AboutMe(){
 
             {/* Top Section */}
             <h1 className="about-header">
-                Who am I?
+                Who Am I?
             </h1>
             <p className="about-paragraph">
-                Place Holder. Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
-                Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
-                Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
-                Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
+                Hello, potential employer! Or stalker, I don't judge. My name is Ashton Morrison and I'm a Canadian student at 
+                Simon Fraser University. I'm currently studying computer science with no plans on stopping, since I'm such a 
+                hard-worker. I don't have a job in that field yet, but I'm currently working in a kitchen as a line cook. You'll 
+                definetly be able to determine the rest of my personality over the course of this website, so I won't bore you with 
+                that. What I will tell you though, is that I'm motivated, determined, and ready to take on any challenge that comes 
+                my way. I'm excited to see what the future holds for me, and I hope you are too.
             </p>
 
             {/* Middle Section */}
@@ -20,14 +22,16 @@ export default function AboutMe(){
 
                 <div className="about-section text">
                     <h1 className="about-header"> 
-                        TESTING
+                        What Are My Interests?
                     </h1>
 
                     <p className="about-paragraph">
-                        Place Holder. Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
-                        Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
-                        Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
-                        Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
+                        I have a lot of interests, but I'll try to keep this brief. My top interest would be video games, by a 
+                        land slide. I've been playing video games since I was a kid, and I've spent more money on computers and 
+                        other technologies than my car. I also enjoy walking outside in parks or forests, as depicted in the photo 
+                        to the left. I find it very relaxing and it helps me clear my mind. Focusing on my field of choice, I enjoy 
+                        the problem solving aspect the most, be it in AI, game development, or other projects. Speaking of projects, 
+                        you'll see more of those in the next page, so stay tuned. 
                     </p>
                 </div>
             </div>
@@ -35,16 +39,17 @@ export default function AboutMe(){
             {/* Bottom Section */}
             <div className="about-section image">
                 <h1 className="about-header"> 
-                    TESTING
+                    Who Are These Guys?
                 </h1>
 
                 <img className="about-image-beatles" src="/Photos/AshtonXBeatles.jpg" alt="Ashton walking with friends like the beatles" />
 
                 <p className="about-paragraph">
-                    Place Holder. Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
-                    Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
-                    Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
-                    Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
+                    Great question, me! The answer? I have no idea. Nah I'm just kidding, these are a few my friends. I've known them for 
+                    quite a long time. This photo was taken as a part of our highschool graduation photos, where we decided to try and
+                    recreate the famous Beatles photo. I think we did a pretty good job, except for the fact that we're not the Beatles, 
+                    nor are we in the right location, nor are we wearing the right clothes, nor are we even walking in the right direction.
+                    But hey, we tried. I'm very lucky to have friends like these, and I'm excited to see where life takes us.
                 </p>
             </div>
             
