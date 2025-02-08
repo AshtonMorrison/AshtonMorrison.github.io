@@ -2,6 +2,8 @@
 export default function AboutMe(){
     return (
         <div className="about-container">
+
+            {/* Top Section */}
             <h1 className="about-header">
                 Who am I?
             </h1>
@@ -12,10 +14,11 @@ export default function AboutMe(){
                 Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
             </p>
 
+            {/* Middle Section */}
             <div className="about-section">
                 <img className="about-image-stump" src="/Photos/AshtonStump.jpg" alt="Ashton on a stump looking at camera" />
 
-                <div className="about-section-text">
+                <div className="about-section text">
                     <h1 className="about-header"> 
                         TESTING
                     </h1>
@@ -28,19 +31,22 @@ export default function AboutMe(){
                     </p>
                 </div>
             </div>
-            
-            <h1 className="about-header"> 
-                TESTING
-            </h1>
 
-            <img className="about-image-beatles" src="/Photos/AshtonXBeatles.jpg" alt="Ashton walking with friends like the beatles" />
+            {/* Bottom Section */}
+            <div className="about-section image">
+                <h1 className="about-header"> 
+                    TESTING
+                </h1>
 
-            <p className="about-paragraph">
-                Place Holder. Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
-                Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
-                Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
-                Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
-            </p>
+                <img className="about-image-beatles" src="/Photos/AshtonXBeatles.jpg" alt="Ashton walking with friends like the beatles" />
+
+                <p className="about-paragraph">
+                    Place Holder. Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
+                    Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
+                    Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
+                    Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.Place Holder.
+                </p>
+            </div>
             
         </div>
     )
