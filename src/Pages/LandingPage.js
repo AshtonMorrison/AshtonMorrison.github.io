@@ -5,7 +5,7 @@ export default function LandingPage() {
 
   return (
     <div>
-      <img src="/Photos/Ashton1.jpg" alt='AshtonBench' className="backImage" />
+      <img src="/Photos/AshtonBench.jpg" alt='Ashton-on-Bench' className="backImage" />
 
       <h1 className = 'welcome'>
           Welcome to my website!
