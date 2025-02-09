@@ -43,3 +43,38 @@
 .nav li:hover{
     background-color: #777;
 }
+
+/* Styles for ProjectSection */
+
+.project-content {
+    flex: 1;
+    flex-direction: column;
+}
+
+.project-content.right{
+    margin-left: 2vw;
+}
+
+.project-content.left{
+    margin-right: 2vw;
+}
+
+.project-title {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.project-image{
+    width: 30vw; /* to be changed when proper images are added */
+}
+
+.project-link {
+    font-size: 1.5vw;
+    color: blue;
+    text-decoration: none;
+    margin-top: 1.5vh;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}

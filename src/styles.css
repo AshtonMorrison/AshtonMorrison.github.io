@@ -5,6 +5,33 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Styles for All */
+.container {
+    position: relative;
+    top: 10vh; 
+    text-align: center;
+    margin: 0 10vw; 
+    padding-bottom: 10vh;
+}
+
+.header {
+    font-size: 5vw;
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+
+.paragraph {
+    font-size: 1.5vw; 
+    text-align: justify;
+}
+
+.section {
+    margin: 8vh 0; 
+    display: flex;
+    align-items: center;
+}
+
+
 /* Style for the Landing Page*/
 .backImage {
     position: absolute;
@@ -27,41 +54,15 @@
 }
 
 /* Styles for About Me */
-
-.about-container {
-    position: relative;
-    top: 10vh; 
-    text-align: center;
-    margin: 0 10vw; 
-    padding-bottom: 10vh;
-}
-
-.about-section {
-    margin: 8vh 0; 
-    display: flex;
-    align-items: center;
-}
-
-.about-section.text {
+.section.abouttext {
     flex: 1;
     flex-direction: column;
     margin-left: 2vw; 
 }
 
-.about-section.image {
+.section.aboutimage {
     flex-direction: column;
     gap: 2vh
-}
-
-.about-header {
-    font-size: 5vw;
-    font-weight: bold;
-    
-}
-
-.about-paragraph {
-    font-size: 1.5vw; 
-    text-align: justify;
 }
 
 .about-image-stump {
