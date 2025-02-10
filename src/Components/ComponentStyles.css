@@ -78,3 +78,38 @@
 .project-link:hover {
     text-decoration: underline;
 }
+
+/* Styles for Contact Form*/
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+}
+
+form h2{}
+
+.input-box{
+    margin-top: 1vh;
+}
+
+.field{
+    width: 100%
+}
+
+.field.message{
+    height: 10vh;
+    resize: none;
+}
+
+form button{
+    margin-top: 1vh;
+    padding: 0.5vw;
+    font-size: 1.5vw;
+}
+
+.submit-btn{}
+
+.reset-btn{}
