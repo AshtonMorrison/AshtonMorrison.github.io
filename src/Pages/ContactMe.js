@@ -16,8 +16,7 @@ export default function ContactMe(){
 
                     <a className="contact-link" href={"https://github.com/AshtonMorrison"} target="_blank" rel="noopener noreferrer">GitHub</a>
 
-                    {/*Place Holder is Github as I don't have a LinkedIn account yet*/}
-                    <a className="contact-link" href={"https://github.com/AshtonMorrison"} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a className="contact-link" href={"https://www.linkedin.com/in/ashtonmorrison/"} target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </div>
 
                 <ContactForm />
