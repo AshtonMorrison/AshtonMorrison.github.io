@@ -5,7 +5,9 @@ export default function Navbar() {
     return (
         <div className='navbar-container'>
             <nav className= 'nav'>
-                <Link to='/' className='site-title'>Home</Link>
+                <Link to='/'>
+                    <img src="logo192.png" alt="Logo" className="logo" />
+                </Link>
                 <ul>
                     <DisplayActive to='/about'>About Me</DisplayActive>
                     <DisplayActive to='/projects'>Projects</DisplayActive>
