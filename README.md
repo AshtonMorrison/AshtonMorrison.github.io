@@ -1,3 +1,8 @@
 # AshtonMorrison.github.io
 
-Hello, welcome to my site!
+This is the repository for my personal website.
+
+The code within this repository is licensed under the MIT License. You are free to use, modify, and distribute it under the terms of the license. See the [MIT License](LICENSE-MIT) for more details.
+
+Any other text, images, and/or documents within this repository are licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. You may not use my personal content for commercial purposes, you may not modify or create derivatives of my personal content, and you must provide proper attribution if you share it. See the [CC BY-NC-ND 4.0 License](LICENSE-CC-BY-NC-ND-Four) for more details.
+
