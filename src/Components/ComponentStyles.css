@@ -16,7 +16,7 @@
     font-size: 1.5vw;
 }
 
-.logo{
+.nav-logo{
     width: 4vw;
 }
 
@@ -119,10 +119,41 @@ form button{
     background-color: black;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding: 0 10vw;
+}
+.footer-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+}
+
+.footer-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.footer-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+}
+
+.footer-logo{
+    width: 3vw;
+}
+
+.footer-text{
+    font-size: 0.9vw;
+    font-family: arial;
 }
