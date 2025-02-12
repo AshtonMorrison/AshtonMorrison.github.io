@@ -112,3 +112,17 @@ form button{
 .submit-btn{}
 
 .reset-btn{}
+
+
+/* Styles for Footer */
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
