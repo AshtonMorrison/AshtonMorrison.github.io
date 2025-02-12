@@ -1,12 +1,11 @@
 import { Link, useMatch, useResolvedPath} from 'react-router-dom';
-import './ComponentStyles.css'
 
 export default function Navbar() {
     return (
         <div className='navbar-container'>
             <nav className= 'nav'>
                 <Link to='/'>
-                    <img src="logo192.png" alt="Logo" className="logo" />
+                    <img src="logo192.png" alt="Logo" className="nav-logo" />
                 </Link>
                 <ul>
                     <DisplayActive to='/about'>About Me</DisplayActive>
