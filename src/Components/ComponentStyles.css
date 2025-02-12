@@ -157,3 +157,13 @@ form button{
     font-size: 0.9vw;
     font-family: arial;
 }
+
+.footer a {
+    color: white;
+    text-decoration: underline;
+    margin: 0.25em 0;
+}
+
+.footer a:hover {
+    color: #cccc;
+}
