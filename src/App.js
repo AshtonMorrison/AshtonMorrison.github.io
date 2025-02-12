@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar";
 import { Route, Routes } from "react-router-dom";
 
 import "./styles.css";
+import "./Components/ComponentStyles.css";
 
 
 function App() {

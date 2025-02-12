@@ -1,6 +1,4 @@
 
-import './ComponentStyles.css'
-
 
 export function ProjectSectionRight({ image, title, text, link }) {
     return (
