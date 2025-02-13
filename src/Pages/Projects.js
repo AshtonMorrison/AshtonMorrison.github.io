@@ -22,9 +22,8 @@ export default function Projects(){
                 link="https://github.com/AshtonMorrison/Image-Editing-Software" 
             />
 
-            {/* Add image of personal site once finished. Inception moment*/}
             <ProjectSectionLeft 
-                image=""
+                image="/Photos/AshtonWebsite.jpg"
                 title="Personal Website" 
                 text="Obviously, the website that you're currently on is made by me! This website was made using React, and it was my
                 first time ever doing web development, and also my first time interacting with HTML and CSS. I'm happy with how it turned out,
