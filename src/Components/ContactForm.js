@@ -1,6 +1,10 @@
+import { useRef } from "react";
 
 
 export default function ContactForm(){
+
+    let formRef = useRef();
+
     const onSubmit = async (event) => {
         event.preventDefault();
         const formData = new FormData(event.target);
@@ -22,12 +26,13 @@ export default function ContactForm(){
         if (res.success) {
           console.log("Success", res);
         }
-      };
 
+        formRef.current.reset();
+      };
 
     return (
         <section className="contact-form">
-            <form onSubmit={onSubmit}>
+            <form ref={formRef} onSubmit={onSubmit}>
                 <h2>Contact Form</h2>
                 <div className = 'row'>
                   <div className='input-box top'>
