@@ -25,6 +25,7 @@ export default function ContactForm(){
     
         if (res.success) {
           console.log("Success", res);
+          alert("Form submitted successfully");
         }
 
         formRef.current.reset();
