@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -54,6 +53,7 @@ html {
 
 
 /* Style for the Landing Page*/
+
 .backImage {
     position: absolute;
     top: 0;
@@ -64,14 +64,19 @@ html {
     z-index: -1;
 }
 
+
 .welcome{
-    color: white;
+    color: rgb(0, 0, 0);
     position: absolute;
-    font-size: 3vw;
-    font-family: Arial;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 3vw;
+    font-size: 4vw;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    top: 30%;
+    transform: translateY(-30%);
+    left: 5vw;
+
+    padding: 1vw;;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 /* Styles for About Me */
@@ -107,7 +112,7 @@ html {
 /* Styles for Contact Me */
 .section.links {
     justify-content: center;
-    gap: 0 20vw;
+    gap: 0 12vw;
 }
 
 .contact-link {
