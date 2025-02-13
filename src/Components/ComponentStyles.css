@@ -41,7 +41,7 @@
 }
 
 .nav{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -134,7 +134,6 @@
 }
 
 
-
 /* Styles for Contact Form*/
 .contact-form{
     display: flex;
@@ -143,7 +142,6 @@
 }
 
 form{
-
     width: 50vw;
     height: 52vh;
 
