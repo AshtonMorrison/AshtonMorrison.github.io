@@ -1,6 +1,33 @@
-import { Link, useMatch, useResolvedPath} from 'react-router-dom';
+import { Link, useMatch, useResolvedPath, useLocation} from 'react-router-dom';
 
 export default function Navbar() {
+    const location = useLocation();
+
+    const renderNavbar = () => {
+        switch (location.pathname) {
+            case '/':
+                return <LandingNavbar />
+            default:
+                return <NormalNavbar />
+        }
+    }
+
+    return renderNavbar();
+}
+
+function LandingNavbar(){
+    return (
+        <div className='landing-navbar-container'>
+        <nav className= 'landing-nav'>
+            <Link to='/about'>About Me</Link>
+            <Link to='/projects'>Projects</Link>
+            <Link to='/contact'>Contact Me</Link>
+        </nav>
+    </div>
+    )
+}
+
+function NormalNavbar(){
     return (
         <div className='navbar-container'>
             <nav className= 'nav'>
@@ -16,6 +43,7 @@ export default function Navbar() {
         </div>
     )
 }
+
 
 function DisplayActive({ to, children, ...props}){
 

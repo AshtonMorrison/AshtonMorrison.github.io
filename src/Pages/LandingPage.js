@@ -8,7 +8,7 @@ export default function LandingPage() {
       <img src="/Photos/AshtonBench.jpg" alt='Ashton-on-Bench' className="backImage" />
 
       <h1 className = 'welcome'>
-          Welcome to my website!
+          Welcome To My Website!
       </h1>
     </div>
   );
