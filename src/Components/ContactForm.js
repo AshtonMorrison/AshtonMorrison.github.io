@@ -29,20 +29,24 @@ export default function ContactForm(){
         <section className="contact-form">
             <form onSubmit={onSubmit}>
                 <h2>Contact Form</h2>
-                <div className='input-box'>
-                    <label> *Name: </label>
-                    <input type='text' name = "name" className="field" placeholder = "Enter Your Full Name" required />
-                </div>
-                <div className='input-box'>
-                    <label> *Email Address: </label>
-                    <input type='email' name="email" className="field" placeholder = "Enter Your Email" required />
+                <div className = 'row'>
+                  <div className='input-box top'>
+                      <label> *Name: </label>
+                      <input type='text' name = "name" className="field" placeholder = "Enter Your Full Name" required />
+                  </div>
+                  <div className='input-box top'>
+                      <label> *Email Address: </label>
+                      <input type='email' name="email" className="field" placeholder = "Enter Your Email" required />
+                  </div>
                 </div>
                 <div className='input-box'>
                     <label> *Message: </label>
                     <textarea name='message' className="field message" placeholder = "Enter Your Message" required></textarea>
                 </div>
-                <button type='submit' className='submit-btn'>Submit Message</button>
-                <button type='reset' className='reset-btn'>Reset Form</button>
+                <div className = "button-box">
+                  <button type='submit'>Submit Message</button>
+                  <button type='reset'>Reset Form</button>
+                </div>
             </form>
         </section>
     )

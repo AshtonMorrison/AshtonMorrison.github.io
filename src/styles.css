@@ -5,13 +5,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    background-color: black;
+}
+
 /* Styles for All */
+
 .container {
     position: relative;
-    top: 10vh; 
     text-align: center;
     margin: 0 10vw; 
-    padding-bottom: 10vh;
+
+    padding: 15vh 0 10vh 0;
 }
 
 .header {
@@ -19,12 +24,26 @@
     font-size: 5vw;
     font-weight: bold;
     margin-bottom: 2vh;
+
+    display: inline-block;
+    padding: 1vw;;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0.5vw rgb(0, 0, 0);
+    border-style: ridge groove groove ridge;
+    border-radius: 10px;
+    
 }
 
 .paragraph {
     font-family: Arial;
     font-size: 1.5vw; 
     text-align: justify;
+
+    padding: 1vw;;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0.5vw rgb(0, 0, 0);
+    border-style: ridge groove groove ridge;
+    border-radius: 10px;
 }
 
 .section {
@@ -68,11 +87,21 @@
 }
 
 .about-image-stump {
-    width: 30vw; 
+    width: 30vw;
+    padding: 1vw;;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border: 0.5vw rgb(255, 196, 0);
+    border-style: ridge groove groove ridge;
 }
 
 .about-image-beatles {
     width: 100%; 
+    padding: 1vw;;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border: 0.5vw rgb(255, 196, 0);
+    border-style: ridge groove groove ridge;
 }
 
 /* Styles for Contact Me */
@@ -83,11 +112,18 @@
 
 .contact-link {
     font-size: 3vw;
-    color: blue;
-    text-decoration: none;
+    color: black;
+    text-decoration: underline;
     margin-top: 1.5vh;
+
+    padding: 1vw;;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0.5vw rgb(0, 0, 0);
+    border-style: ridge groove groove ridge;
+    border-radius: 10px;
 }
 
 .contact-link:hover {
-    text-decoration: underline;
+    color: rgb(112, 112, 112);
 }
