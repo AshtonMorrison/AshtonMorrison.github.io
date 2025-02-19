@@ -1,5 +1,4 @@
 
-import Resume from '../Resume.pdf'
 import ContactForm from '../Components/ContactForm.js'
 
 export default function ContactMe(){
@@ -12,7 +11,7 @@ export default function ContactMe(){
             </p>
 
                 <div className="section links">
-                    <a className="contact-link" href={Resume} target="_blank" rel="noopener noreferrer">Resume</a>
+                    <a className="contact-link" href={"https://ashtonmorrisonresume.tiiny.site/"} target="_blank" rel="noopener noreferrer">Resume</a>
 
                     <a className="contact-link" href={"https://github.com/AshtonMorrison"} target="_blank" rel="noopener noreferrer">GitHub</a>
 
