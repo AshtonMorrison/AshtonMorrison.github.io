@@ -18,12 +18,15 @@ export default function Navbar() {
 function LandingNavbar(){
     return (
         <div className='landing-navbar-container'>
-        <nav className= 'landing-nav'>
-            <Link to='/about'>About Me</Link>
-            <Link to='/projects'>Projects</Link>
-            <Link to='/contact'>Contact Me</Link>
-        </nav>
-    </div>
+            <h1 className = 'welcome'>
+                Welcome To My Website!
+            </h1>
+            <nav className= 'landing-nav'>
+                <Link to='/about'>About Me</Link>
+                <Link to='/projects'>Projects</Link>
+                <Link to='/contact'>Contact Me</Link>
+            </nav>
+        </div>
     )
 }
 

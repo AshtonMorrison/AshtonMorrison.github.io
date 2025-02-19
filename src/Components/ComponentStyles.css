@@ -2,14 +2,25 @@
 /* Styles for the LandingNavbar */
 .landing-navbar-container{
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 5vw;
     top: 50%;
     transform: translateY(-50%);
-    left: 7.5vw;
+}
+
+.welcome{
+    font-size: 4vw;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+    padding: 1vw;;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 2vh;
 }
 
 .landing-nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 3vw;
     font-size: 1.7vw;
 }
