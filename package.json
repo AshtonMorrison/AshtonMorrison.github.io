@@ -4,11 +4,19 @@
   "homepage": "https://AshtonMorrison.github.io",
   "private": true,
   "dependencies": {
+    "brace-expansion": "^4.0.1",
     "cra-template": "1.2.0",
+    "form-data": "^4.0.4",
+    "http-proxy-middleware": "^3.0.5",
+    "nth-check": "^2.1.1",
+    "on-headers": "^1.1.0",
+    "postcss": "^8.5.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router": "^7.9.1",
     "react-router-dom": "7.1.5",
-    "react-scripts": "5.0.1"
+    "react-scripts": "^5.0.1",
+    "webpack-dev-server": "^5.2.2"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -37,8 +45,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
     "gh-pages": "^6.3.0",
-    "react-router-dom": "^7.1.5",
-    "@babel/plugin-proposal-private-property-in-object": "^7.14.5"
+    "react-router-dom": "^7.1.5"
   }
 }
