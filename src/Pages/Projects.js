@@ -13,13 +13,12 @@ export default function Projects(){
                 link="https://github.com/YKPandit/Hackathon-Project" 
             />
             <ProjectSectionRight 
-                image="/Photos/Ashton1Mod.png" 
-                title="Image Editing Software" 
-                text="This is an old project that I created for my capstone in high school. It's an image editing program made with Java
-                that allows you to apply various different effects to a given image. It's not the most advanced program in the world, 
-                but it was a great learning experience. The image on the left here was edited using the software, so it gives you an idea
-                of it's capabilities." 
-                link="https://github.com/AshtonMorrison/Image-Editing-Software" 
+                image="/Photos/TerritoryAscent.png" 
+                title="Territory Ascent" 
+                text="This is a simple Local/LAN multiplayer game that I made with 3 classmates for my networking class. 
+                The game allows up to 8 players and is built using Pygame for graphics, Msgpack for data serialization, 
+                and works directly with TCP sockets for communication."
+                link="https://github.com/AshtonMorrison/Territory-Ascent" 
             />
 
             <ProjectSectionLeft 
@@ -29,6 +28,16 @@ export default function Projects(){
                 first time ever doing web development, and also my first time interacting with HTML and CSS. I'm happy with how it turned out,
                 and I'm planning to expand on it throughout my life as I accumulate more and better projects."
                 link="https://github.com/AshtonMorrison/AshtonMorrison.github.io" 
+            />
+
+            <ProjectSectionRight 
+                image="/Photos/Ashton1Mod.png" 
+                title="Image Editing Software" 
+                text="This is an old project that I created for my capstone in high school. It's an image editing program made with Java
+                that allows you to apply various different effects to a given image. It's not the most advanced program in the world, 
+                but it was a great learning experience. The image on the left here was edited using the software, so it gives you an idea
+                of it's capabilities." 
+                link="https://github.com/AshtonMorrison/Image-Editing-Software" 
             />
         </div>
     )
