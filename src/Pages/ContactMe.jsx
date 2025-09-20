@@ -1,5 +1,5 @@
 
-import ContactForm from '../Components/ContactForm.js'
+import ContactForm from '../Components/ContactForm.jsx'
 
 export default function ContactMe(){
     return (
