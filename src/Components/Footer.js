@@ -1,5 +1,4 @@
 
-
 export default function Footer(){
 
     let year = new Date().getFullYear();
@@ -21,7 +20,7 @@ export default function Footer(){
 
             {/* Center, contains logo and copyright stuff*/}
             <div className="footer-center">
-                <img src="logo192.png" alt="Logo" className="footer-logo"/>
+                <img src={import.meta.env.BASE_URL + 'logo192.png'} alt="Logo" className="footer-logo"/>
                 <p className="footer-text">
                     &copy; {year}, Ashton Morrison 
                 </p>
