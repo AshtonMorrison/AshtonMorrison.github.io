@@ -29,13 +29,12 @@ function LandingNavbar(){
         </div>
     )
 }
-
 function NormalNavbar(){
     return (
         <div className='navbar-container'>
             <nav className= 'nav'>
                 <Link to='/'>
-                    <img src="logo192.png" alt="Logo" className="nav-logo" />
+                    <img src={import.meta.env.BASE_URL + 'logo192.png'} alt="Logo" className="nav-logo" />
                 </Link>
                 <ul>
                     <DisplayActive to='/about'>About Me</DisplayActive>

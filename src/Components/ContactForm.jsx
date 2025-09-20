@@ -8,8 +8,9 @@ export default function ContactForm(){
     const onSubmit = async (event) => {
         event.preventDefault();
         const formData = new FormData(event.target);
-    
-        formData.append("access_key", "f826bd83-58ff-40c3-ae68-368e638085ed");
+
+        const ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_KEY
+        formData.append("access_key", ACCESS_KEY);
     
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
