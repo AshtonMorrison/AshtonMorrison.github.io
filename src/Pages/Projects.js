@@ -5,7 +5,7 @@ export default function Projects(){
     return (
         <div className="container">
             <ProjectSectionLeft 
-                image="/Photos/2DDungeonCrawler.png" 
+                image={import.meta.env.BASE_URL + 'Photos/2DDungeonCrawler.png'} 
                 title="2D Dungeon Crawler" 
                 text="This is an ongoing project that I'm working on with two other friends. It's a 2D dungeon crawler game 
                 that's being made in C# using the Monogame framework. We're currently in the very early stages of development, but I believe
@@ -13,7 +13,7 @@ export default function Projects(){
                 link="https://github.com/YKPandit/Hackathon-Project" 
             />
             <ProjectSectionRight 
-                image="/Photos/TerritoryAscent.png" 
+                image={import.meta.env.BASE_URL + 'Photos/TerritoryAscent.png'} 
                 title="Territory Ascent" 
                 text="This is a simple Local/LAN multiplayer game that I made with 3 classmates for my networking class. 
                 The game allows up to 8 players and is built using Pygame for graphics, Msgpack for data serialization, 
@@ -22,7 +22,7 @@ export default function Projects(){
             />
 
             <ProjectSectionLeft 
-                image="/Photos/AshtonWebsite.jpg"
+                image={import.meta.env.BASE_URL + 'Photos/AshtonWebsite.jpg'}
                 title="Personal Website" 
                 text="Obviously, the website that you're currently on is made by me! This website was made using React, and it was my
                 first time ever doing web development, and also my first time interacting with HTML and CSS. I'm happy with how it turned out,
@@ -31,7 +31,7 @@ export default function Projects(){
             />
 
             <ProjectSectionRight 
-                image="/Photos/Ashton1Mod.png" 
+                image={import.meta.env.BASE_URL + 'Photos/Ashton1Mod.png'} 
                 title="Image Editing Software" 
                 text="This is an old project that I created for my capstone in high school. It's an image editing program made with Java
                 that allows you to apply various different effects to a given image. It's not the most advanced program in the world, 

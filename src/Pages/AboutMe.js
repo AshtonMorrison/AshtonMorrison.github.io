@@ -18,7 +18,7 @@ export default function AboutMe(){
 
             {/* Middle Section */}
             <div className="section">
-                <img className="about-image-stump" src="/Photos/AshtonStump.jpg" alt="Ashton on a stump looking at camera" />
+                <img className="about-image-stump" src={import.meta.env.BASE_URL + 'Photos/AshtonStump.jpg'} alt="Ashton on a stump looking at camera" />
 
                 <div className="section abouttext">
                     <h1 className="header"> 
@@ -42,7 +42,7 @@ export default function AboutMe(){
                     Who Are These Guys?
                 </h1>
 
-                <img className="about-image-beatles" src="/Photos/AshtonXBeatles.jpg" alt="Ashton walking with friends like the beatles" />
+                <img className="about-image-beatles" src={import.meta.env.BASE_URL + 'Photos/AshtonXBeatles.jpg'} alt="Ashton walking with friends like the beatles" />
 
                 <p className="paragraph">
                     Great question! The answer? I have no idea. Nah, I'm just kidding, these are a few of my friends. I've known them for 
