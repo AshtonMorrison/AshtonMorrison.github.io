@@ -1,7 +1,6 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "homepage": "https://AshtonMorrison.github.io",
   "private": true,
   "dependencies": {
     "brace-expansion": "^4.0.1",
@@ -13,8 +12,8 @@
     "postcss": "^8.5.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router": "^7.9.1",
-    "react-router-dom": "^7.9.1"
+    "react-router": "^7.12.0",
+    "react-router-dom": "^7.12.0"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -25,12 +24,6 @@
     "preview": "vite preview",
     "test": "echo \"No tests configured\" && exit 0",
     "eject": "echo \"Eject not supported in Vite setup\" && exit 1"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -48,6 +41,6 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
     "@vitejs/plugin-react": "^5.0.3",
     "gh-pages": "^6.3.0",
-    "vite": "^7.1.6"
+    "vite": "^7.1.11"
   }
 }
