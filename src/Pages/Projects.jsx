@@ -34,10 +34,10 @@ export default function Projects(){
             <ProjectSectionLeft
                 image={import.meta.env.BASE_URL + 'Photos/2DDungeonCrawler.png'} 
                 title="2D Dungeon Crawler" 
-                text="This is an ongoing project that I'm working on with two other friends. It's a 2D dungeon crawler game 
-                that's being made in C# using the Monogame framework. We're currently in the very early stages of development, but I believe
+                text="This is an ongoing project that I started with two other friends, but have since carried on developing by myself. It's a 2D dungeon crawler game 
+                that's being made in C# using the Monogame framework. I'm currently in the very early stages of development, but I believe
                 it's still worth noting. It's so far been a very fun project and a great introduction to game development." 
-                link="https://github.com/YKPandit/Hackathon-Project" 
+                link="https://github.com/AshtonMorrison/2D-Dungeon-Crawler" 
             />
 
             <ProjectSectionRight
