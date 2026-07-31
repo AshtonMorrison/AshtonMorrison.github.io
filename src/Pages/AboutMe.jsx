@@ -34,25 +34,7 @@ export default function AboutMe(){
                         you'll see more of those on the next page, so stay tuned. 
                     </p>
                 </div>
-            </div>
-
-            {/* Bottom Section */}
-            <div className="section aboutimage">
-                <h1 className="header"> 
-                    Who Are These Guys?
-                </h1>
-
-                <img className="about-image-beatles" src={import.meta.env.BASE_URL + 'Photos/AshtonXBeatles.jpg'} alt="Ashton walking with friends like the beatles" />
-
-                <p className="paragraph">
-                    Great question! The answer? I have no idea. Nah, I'm just kidding, these are a few of my friends. I've known them for 
-                    quite a long time. This photo was taken as a part of our high school graduation photos, where we decided to try and
-                    recreate the famous Beatles photo. I think we did a pretty good job, except for the fact that we're not the Beatles, 
-                    nor are we in the right location, nor are we wearing the right clothes, nor are we even walking in the right direction.
-                    But hey, we tried. I'm very lucky to have friends like these, and I'm excited to see where life takes us.
-                </p>
-            </div>
-            
+            </div>    
         </div>
     )
 }

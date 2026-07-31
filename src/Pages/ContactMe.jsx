@@ -11,7 +11,7 @@ export default function ContactMe(){
             </p>
 
                 <div className="section links">
-                    <a className="contact-link" href={"https://ashtonmorrisonresume.tiiny.site/"} target="_blank" rel="noopener noreferrer">Resume</a>
+                    <a className="contact-link" href={"/Ashton Resume.pdf"} target="_blank" rel="noopener noreferrer">Resume</a>
 
                     <a className="contact-link" href={"https://github.com/AshtonMorrison"} target="_blank" rel="noopener noreferrer">GitHub</a>
 
